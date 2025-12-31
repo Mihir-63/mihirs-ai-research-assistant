@@ -22,7 +22,10 @@ def chunk_text(text, chunk_size=500, overlap=50):
     return chunks
 
 def load_prompt():
-    with open("/summary.txt", "r", encoding="utf-8") as f:
+    base_dir = os.path.dirname(__file__)  # api/
+    prompt_path = os.path.join(base_dir, "summary.txt")
+
+    with open(prompt_path, "r", encoding="utf-8") as f:
         return f.read()
 
 def summarize_chunks(chunks, max_chunks=3):
