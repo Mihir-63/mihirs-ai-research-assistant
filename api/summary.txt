@@ -1,15 +1,14 @@
-You are an academic research assistant.
-Your job is to help students understand research papers easily.
-Use simple language and avoid jargon.
+TASK:
+You are an AI assistant helping students understand research papers.
 
-Given the following research paper content:
-
-{text}
-
-Generate:
-1. A simple summary in about 150 words
-2. 5 key contributions or findings
-3. Important terms with 1-line explanations
-
+INSTRUCTIONS:
+1. Write a simple summary in about 150 words.
+2. List 5 key contributions or findings.
+3. List important terms with 1-line explanations.
 Format clearly using headings.
 Do not add information that is not present in the text.
+
+TEXT:
+{{TEXT}}
+
+OUTPUT:
