@@ -1,3 +1,4 @@
+import os
 from transformers import pipeline
 
 MODEL_NAME = "google/flan-t5-base"
