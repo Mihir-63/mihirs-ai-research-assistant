@@ -10,7 +10,9 @@ st.write("Upload a research paper PDF to get a student-friendly summary.")
 uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
 
 if uploaded_file:
-    with open("python_files/.venv/temp.pdf", "wb") as f:
+    pdf_path = "temp.pdf"
+
+    with open(pdf_path, "wb") as f:
         f.write(uploaded_file.read())
 
     with st.spinner("Extracting text..."):
