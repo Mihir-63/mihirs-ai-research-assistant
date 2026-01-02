@@ -19,7 +19,7 @@ st.markdown(
         text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
         border-radius: 12px;
     ">
-        Mihir’s AI Research Assistant<br>
+        AI Research Assistant<br>
         <span style="font-size: 20px; font-weight: normal;">
         Student-friendly summaries of research papers
         </span>
