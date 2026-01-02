@@ -2,9 +2,9 @@ import streamlit as st
 from api.pdf_utils import extract_text_from_pdf
 from api.summarizer import chunk_text, summarize_chunks
 
-st.set_page_config(page_title="Mihir's AI Research Assistant")
+st.set_page_config(page_title="AI Research Assistant")
 
-st.title("📚 Mihir's AI Research Assistant")
+st.title("📚 AI Research Assistant")
 st.write("Upload a research paper PDF to get a student-friendly summary.")
 
 uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
